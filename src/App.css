@@ -102,12 +102,12 @@ height:100%;
   margin: 0px auto;
   text-align: center;
 }
-.searchbar .SearchBar-root-1{
+.searchbar .SearchBar-root-1, .searchbar .MuiPaper-elevation1.jss1.MuiPaper-rounded{
   margin: 0px auto;
-  width: 500px;
-  display: inline-block;
+  width: 500px !important;
+  display: inline-block !important;
 }
-.searchbar .SearchBar-iconButton-2{
+.searchbar .SearchBar-iconButton-2, .searchbar .MuiButtonBase-root.jss2.jss3 ,.searchbar .MuiButtonBase-root.jss2.jss5{ 
   display:none;
 }
 .searchbar .MuiButton-containedPrimary{
@@ -128,8 +128,17 @@ height:100%;
 .searchbar .SearchBar-searchContainer-8{
   height:100%;
 }
+.searchbar .jss1 .jss8, .searchbar .jss1 .jss7{
+  height:100%;
+}
 .searchbar .SearchBar-input-7{
   height:100%;
+}
+.MuiTabs-root .MuiTabs-flexContainer button.MuiButtonBase-root:nth-child(3),
+.MuiTabs-root .MuiTabs-flexContainer button.MuiButtonBase-root:nth-child(4),
+.MuiTabs-root .MuiTabs-flexContainer button.MuiButtonBase-root:nth-child(5)
+{
+  pointer-events: none !important;
 }
 
 
@@ -152,9 +161,9 @@ height:100%;
   }
 }
 
-.MuiTabs-root .MuiButtonBase-root:not(.Mui-selected){
+/**.MuiTabs-root .MuiButtonBase-root:not(.Mui-selected){
   pointer-events: none;
-}
+}**/
 @media only screen and (min-width: 1360px) and (max-width: 1480px){
   .chartjs-render-monitor{
     max-width:400px;
@@ -184,6 +193,14 @@ height:100%;
    }
    .gridWrapper .MuiGrid-container{
      display:block !important;
+   }
+   .gridWrapper.dealership .tableSec.MuiGrid-grid-xs-12{
+     display:block !important;
+     flex:none !important;
+     width:auto !important;
+   }
+   .gridWrapper.dealership .tableSec.MuiGrid-grid-xs-12 .div-body{
+     width:auto !important;
    }
    
 }
