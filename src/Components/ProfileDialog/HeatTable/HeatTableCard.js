@@ -312,7 +312,7 @@ rows: rowarray
         </Paper>
         
         <MUIDataTable
-       title={"Attribution List"}
+       title={"Attributes List"}
        data={data}
        columns={columns}
        options={options}
