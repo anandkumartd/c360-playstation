@@ -19,6 +19,10 @@ display:block !important;
     display:block !important;
 }
 
+[data-testid*="MuiDataTableBodyCell-"]{
+    display:block !important;
+}
+
 [class*="MUIDataTableBodyCell-responsiveStacked-"]{
     display:block !important;
     max-width:500px !important;
