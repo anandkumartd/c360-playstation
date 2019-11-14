@@ -134,12 +134,12 @@ height:100%;
 .searchbar .SearchBar-input-7{
   height:100%;
 }
-.MuiTabs-root .MuiTabs-flexContainer button.MuiButtonBase-root:nth-child(3),
+/* .MuiTabs-root .MuiTabs-flexContainer button.MuiButtonBase-root:nth-child(3),
 .MuiTabs-root .MuiTabs-flexContainer button.MuiButtonBase-root:nth-child(4),
 .MuiTabs-root .MuiTabs-flexContainer button.MuiButtonBase-root:nth-child(5)
 {
   pointer-events: none !important;
-}
+} */
 
 
 @media only screen and (max-height: 680px) and (min-width: 480px){
