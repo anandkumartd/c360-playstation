@@ -1,0 +1,70 @@
+.innercontainer.AttList{
+    width:100%;
+    display:block !important;
+    overflow:hidden !important;
+}
+.MuiTableHead-root{
+    width:30% !important;
+    display:inline-block !important;
+    float:left;
+}
+.MuiTableBody-root{
+    width:70% !important;
+    display:inline-block !important;
+}
+.MuiTableHead-root .MuiTableCell-root{
+display:block !important;
+}
+[class*="MUIDataTableSelectCell-root-"]{
+    display:block !important;
+}
+
+[class*="MUIDataTableBodyCell-responsiveStacked-"]{
+    display:block !important;
+    max-width:500px !important;
+    }
+    table.MuiTable-root{
+        display:block !important
+    }
+    [class*="MUIDataTableBodyCell-cellHide-"]{
+        display:none !important;
+    }
+    .MuiTableHead-root .MuiTableCell-root:nth-child(12), .MuiTableHead-root .MuiTableCell-root:nth-child(37), .MuiTableHead-root .MuiTableCell-root:nth-child(38), .MuiTableHead-root .MuiTableCell-root:nth-child(39), .MuiTableHead-root .MuiTableCell-root:nth-child(40){
+       display:none !important;
+   }
+   .MuiTableCell-body:nth-child(23), .MuiTableCell-body:nth-child(73), .MuiTableCell-body:nth-child(75), .MuiTableCell-body:nth-child(77), .MuiTableCell-body:nth-child(79){
+       display:none !important;
+   }
+   .MuiTableCell-body, .MuiTableHead-root .MuiTableCell-root{
+       height:21px;
+   }
+   .MuiTableCell-body.MuiTableCell-paddingCheckbox{
+       height:50px !important
+   }
+   .MuiTableCell-head.MuiTableCell-paddingCheckbox{
+       height:50px !important;
+   }
+   .MuiTableFooter-root{
+       display:none !important;
+   }
+   .MuiTableCell-paddingCheckbox, .MuiTableCell-head.MuiTableCell-paddingCheckbox{
+       display:none !important;
+   }
+@media only screen and (max-width: 1200px){
+.MuiTableBody-root .MuiTableBody-root{
+   width:100%;
+   border:0px; 
+   
+}
+.MuiTableHead-root, .MuiTableHead-root .MuiTableCell-root{
+    width:100px !important;
+    font-size:10px !important;
+}
+.MuiTableCell-body{
+    font-size:10px !important;
+    width:calc(100% - 120px) !important;
+    float:right !important;
+    height:21px !important;
+}
+
+}

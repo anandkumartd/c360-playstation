@@ -2,27 +2,90 @@
   display:table;
   vertical-align:middle;
 }
-.email, .phone, .gender{
+.email, .phone, .gender, .birth{
 margin-bottom:0px;
 }
-.phone, .gender, .birth{
-	margin-top:0px;
+.id.first{
+margin-bottom:10px;
+}
+.id.second, .id.third, .id.fourth{
+margin-bottom:4px;
+}
+.pstation{
+	margin-bottom:0px;
+}
+.phone, .gender, .birth, .id, .pstation{
+margin-top:0px;
 }
 .name{
-	text-align:center;
-	font-weight:600;
+text-align:center;
+font-weight:600;
 }
-.emailIcon, .emailText, .phoneIcon, .phoneText, .genderIcon, .genderText, .birthIcon, .birthText{
+.emailIcon, .emailText, .phoneIcon, .phoneText, .genderIcon, .genderText, .birthIcon, .birthText, .consoleIcon, .idText, .mobileIcon, .webIcon, .LRIcon, .psIcon{
  display:table-cell;
 height:100%;
 color: #706E6B;
 font-size: 14px;
 }
-.emailText, .phoneText, .genderText, .birthText{
+.idText{
+font-size:13px !important;
+}
+.webIcon svg{
+	margin-left: 3px;
+}
+.mobileIcon svg{
+fill:none;
+stroke:#706E6B;
+stroke-width:1px;
+width:30px;
+margin-left: -3px;	
+}
+.mobileIcon{
+	width:30px;
+}
+.LRIcon svg{
+fill:none;
+stroke:#706E6B;
+stroke-width:1px;	
+}
+.consoleIcon svg{
+fill:none;
+stroke:#706E6B;
+stroke-width:1px;
+max-height:18px;
+}
+.bborder{
+display:block;
+}
+.border .label{
+color: #706E6B;
+font-size: 14px;
+display:inline-block;
+width:auto;
+float: left;
+padding-right: 5px;
+}
+.border .startline{
+display: inline-block;
+width: 70%;
+height: 1px;
+border-color:#C9C7C5;
+border-top-width:1px;
+border-top-style:dashed
+}
+.border .endline{
+display:block;
+width:100%;
+height: 1px;
+border-color:#C9C7C5;
+border-top-width:1px;
+border-top-style:dashed
+}
+.emailText, .phoneText, .genderText, .birthText, .idText{
 	vertical-align:top;
     word-break: break-word;
 }
-.emailIcon, .phoneIcon, .birthIcon{
+.emailIcon, .phoneIcon, .birthIcon, .consoleIcon{
 vertical-align:middle;
 }
 .emailIcon svg, .phoneIcon svg, .genderIcon svg, .birthicon svg{

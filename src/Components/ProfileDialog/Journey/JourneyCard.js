@@ -93,7 +93,8 @@ componentDidMount(){
   var finalresult =[];
   var finallabel=[];
   Object.keys(result).forEach(function(name) {
-    var percent = (result[name].value/highest_time)*100;
+   // var percent = (result[name].value/highest_time)*100;
+   var percent = (result[name].value);
     var percentage = percent.toFixed(2);
     finalData.push({ text: name, value: percentage });
     finalresult.push(percentage);

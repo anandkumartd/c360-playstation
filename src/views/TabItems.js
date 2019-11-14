@@ -56,16 +56,18 @@ class TabItems extends Component {
           style={{ float: "right" }}
         >
           <AntTab label="Dashboard" /> {/* component={Link} to="/dashboard"  */}
-          <AntTab label="Journey" />
+          <AntTab label="Channels" />
+          <AntTab label="Journeys" />
           <AntTab label="Attributes" />
-          <AntTab label="Behaviors" />
+        
         </AntTabs>
         <Divider style={{ padding: "0px", width: "100%" }} />
 
         {activeTabIndex === 0 && <Dashboard profile={profile} />}
         {activeTabIndex === 1 && <Journey profile={profile} />}
-        {activeTabIndex === 2 && <Attributes profile={profile} />}
-        {activeTabIndex === 3 && <Behaviors profile={profile} />}
+        {activeTabIndex === 2 && <Behaviors profile={profile} />}
+        {activeTabIndex === 3 && <Attributes profile={profile} />}
+     
         {/* 
         {activeTabIndex === 0 && (
           <div onClick={() => this.setState({ activeTabIndex: 1 })}>
