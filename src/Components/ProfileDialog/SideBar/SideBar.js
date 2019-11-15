@@ -62,7 +62,7 @@ componentDidMount(){
 //console.log(attributes);
     return (
       <div className={"sidebar"}>
-        <p className={"avatar"} style={{textAlign:"center"}}><img src={image} style={{width:"160px", borderRadius:"50%"}}/></p>
+        <p className={"avatar"} style={{textAlign:"center"}}><img src={image} style={{width:"80px", borderRadius:"50%"}}/></p>
         <p className={"name"}>{return_name}</p>
         <p className={"email"}>
           <span className={"emailIcon"}>
