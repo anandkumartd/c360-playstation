@@ -179,3 +179,7 @@ text-transform:capitalize;
     padding-left:0px !important;
     padding-top:0px !important;
 }
+
+.MuiExpansionPanelDetails-root{margin-bottom:0px !important;}
+.id.last{margin-bottom:0px !important;}
+.MuiExpansionPanelSummary-content.Mui-expanded{margin-top:0px !important;}
