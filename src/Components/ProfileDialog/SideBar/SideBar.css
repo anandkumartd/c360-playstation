@@ -2,13 +2,13 @@
   display:table;
   vertical-align:middle;
 }
-.email, .phone, .gender, .birth{
+.email, .phone, .gender{
 margin-bottom:0px;
 }
 .id.first{
 margin-bottom:10px;
 }
-.id.second, .id.third, .id.fourth{
+.id.second, .id.third, .id.fourth, .birth{
 margin-bottom:4px;
 }
 .pstation{
