@@ -131,6 +131,11 @@ height:100%;
 .searchbar .jss1 .jss8, .searchbar .jss1 .jss7{
   height:100%;
 }
+
+.jss8 {
+  width: 80% !important;
+  display: inline-block !important; 
+}
 .searchbar .SearchBar-input-7{
   height:100%;
 }
